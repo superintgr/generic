@@ -8,7 +8,7 @@ def combine(associations):
     for pair in associations:
         yield product(pair)
 
-class Artificial:
+class Construct:
     def __init__(self, label):
         self.center = label
         self.stereo = []
@@ -35,4 +35,10 @@ class Artificial:
                             # add mid (previously left) and right to the stereo registry
                             # indicate that the relative distance is further than 1 unit from the instance label
                             ## although i haven't implemented any weighting attribute to this code yet.
-                            
+
+
+# construct is nuclei
+# all possible neighbors are distance more than 1 unit away
+# for all possible distances, the set of neighbors with constant maximum distance forms shell
+# the constant unitary sequence of possible changes inside the environment, takes place at integer distance apart
+# each orbital pathway at constant distance define the relative position of the orbiting class
