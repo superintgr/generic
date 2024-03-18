@@ -57,3 +57,13 @@ constructor = object
 # if some measurable quantity that stays invarient undet the transformation applied on physical state of a substrate whose measure is implicated from the corresponding logical states, then the transformation implies some abstract state
 # when some abstract state of a system which is composed of subsystems whose intrinsic and extrinsic measures correspond to logical and physical interoperability criterion of each of their composite substructures, the super-structure uniting those substrates produce information variable
 # an information variable implies information media with reversible dynamics, therefore such dynamical laws encorporate the static properties on which abstract varible is imposed.
+
+@before_reflection
+def abstract(physical, logical):
+    # there is a constructor for the generators of this combined system
+    # the generator of the composite substrate is an information media
+    # for every variable of the generated state there exists another state
+    # for every generated state there exists at least one assumed state
+    # for every constructed state there exists at least two possible variable
+    
+    
