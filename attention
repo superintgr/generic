@@ -1,0 +1,35 @@
+# when a document is big and its contents are effecting current memory
+# if the document is not shrunk before current task, the current memory will also produce mode document
+# more document will map the old document with decaying memory of that old history
+# decayed memory side chaining with active memory will magnify the intensity of each of the half-life evolutions
+
+# how to solve the problem?
+## find the most active impulse and its trace through subsequent impulse products
+## while the tracing takes place, it should not start adding new impulses
+## also for every discrete chunk in traced product, map all the paths from the forward direction towarda the backward direction
+## see what origin point is predicted and eliminate the rest using counterfactual statements
+### while traceback paths are available, zip each of the origins to the current position irreversibly
+### also for every zip product, make sure the transformation is linear and does not cross any outside regions or scopes
+### how to compress the long running texts in a meaningful shorter length equivalents?
+#### the coherence in the document is not important in terms of standard language features
+#### if there could be a transformation from those spaces to one of the constrained regions of spaces, it would be sufficient to have the nearest k neighbors of the current linearly transformed regions among the spaces which is a subset of all of them
+#### if one of the k neighbors could recognize the information and one of the k subsequent neighbors can understand the current position, it implies that the current position is sufficient for informing the statistics of all the historical data
+#### how do I select the k neighbors from left side and have them follow all of my next possible trajectories?
+##### set up a formal method for some set of conditions that could be defined now but may not be satisfied yet.
+##### for those that could be defined using expressions that conditionally depend on some other expression being evaluated, set the conditional dependence to be one of the possible position you might occupy regardless of any particular thing.
+##### when a dependent situation is established, now establish some other regularity that could be achieved and some other knowledge presented to you would cause it to be achieved.
+##### map each of the regular events that could be automatically interpolated from some signaling source into a regular expression type, since the regular conditions that satify depenency requirement for irregular functional, a number of those evaluations could be interpolated together to satisfy the other condition required by the function.
+
+[what implicit information could inform about my regular explicit and discrete patterns]
+
+- history of the browser
+- sequential evolution of impulses
+- terminal logs and its evolution
+- notebooks and scripts
+
+[what can gurantee the automatic execution of the processes and what happens if the computer is off]
+
+- consider the routines used by os processes
+- consider the design and media used to guide user
+- consider the practice enforced for becoming an user
+- consider the supports that assumes a basis for which solution is valid
