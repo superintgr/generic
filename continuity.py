@@ -62,3 +62,50 @@ y : projected vector for input.T @ y -> output
 
 
 
+Here's a basic implementation using NumPy to create state matrices X, Y, and Z, where Y acts as a constructor to speed up the transformation from X to Z:
+
+```python
+import numpy as np
+
+# Define dimensions
+n = 5  # Size of state matrices
+
+# Create random state matrices X and Z
+X = np.random.rand(n, n)
+Z = np.random.rand(n, n)
+
+# Define a function to construct Y from X
+def construct_Y(X):
+    # You can define the construction process here
+    # For demonstration purposes, let's just make Y equal to X squared
+    Y = np.matmul(X, X)
+    return Y
+
+# Construct Y from X
+Y = construct_Y(X)
+
+# Define epsilon for allowed error
+epsilon = 1e-6
+
+# Verify if Y can transform X to cause Z within epsilon
+def is_constructor(X, Y, Z, epsilon):
+    Z_predicted = np.matmul(Y, X)
+    error = np.linalg.norm(Z - Z_predicted)
+    if error < epsilon:
+        return True
+    else:
+        return False
+
+# Check if Y is a constructor of T
+is_constructor_T = is_constructor(X, Y, Z, epsilon)
+
+print("Is Y a constructor of T:", is_constructor_T)
+```
+
+In this code:
+- We create random state matrices X and Z.
+- We define a function `construct_Y` that constructs Y from X. For simplicity, we just square X to obtain Y.
+- We construct Y from X using the defined function.
+- We define a function `is_constructor` to verify if Y can transform X to cause Z within a specified epsilon. It computes the predicted Z using Y and checks if the error is within the allowed epsilon.
+- Finally, we check if Y is a constructor of T by calling the `is_constructor` function. If the error is within the epsilon, Y is considered a constructor of T.
+
