@@ -30,6 +30,12 @@ question now is to find functional description of the pairs which can cut the sp
 
 
 
+If we sample from a solution for fixed number of steps, the sample would contain N number of columns corresponding to individual components and M number of rows indicating each change across all the components.
+Instead of considering M instances of N objects, why couldn't we consider M objects and N differentiated stages?
+In other words, if the matrix is originally of shape (M x N), why not (N x M)?
+
+At each point along the rows, the observer associated with that position measures the crossing of N different lines perpendicular to their planar field.
+For M different observers situated across different levels of the measure topology such that each one of the measurer would observe a unique cross-sections of the crossing of N objects through each of them uniformly.
 
 
 
@@ -75,10 +81,21 @@ All those conditions requiring certain description of the machine to be manifest
 For anything to be a catalyst, it must satisfy some criteria and all those not violating those properties could be considered as a catalyst.
 For considering indirectly, we can prepare initialization tests for which if any naturally occuring object passes the threshold, it could be shown imperically that the counterfactual does not provably hold.
 
+Naturally ocurring catalysts are things like fields, particles, electrons etc. of which the electric and magnetic field could be used to define certain state of the machine to be information carrying substrate.
+Once it is made to act as a media for storing and processing information, we can define what constitutes information and through that an environment can be prepared to satisfy some substrate specific properties.
+Once a substrate is defined where information corresponds to physical changes that the machine could be made to go through, we can define all catalytic instantiations in terms of those substrate attributes.
 
+- state X -> set of symbols Y
+- state Z -> set of symbols I
 
+When Y symbols are given to a catalyst, it puts state X -> state Z.
+If the transformation is successfull, then X can access I symbols.
 
+This kind of substrate must create a set of attribute class for that substrate such that from any state attributes there are two possible state property possible.
+The state at any time is represented by certain attribute, but the corresponding change in state follows from that first attribute would produce different attribute.
+The permutation of all pairs of attributes will require that differentiated attributes of a state must also correspond to another pair of attribute from the same set.
 
+Taking all of such transformations and applying the union of all to each attribute in the set, consitute computation process.
 
 
 
